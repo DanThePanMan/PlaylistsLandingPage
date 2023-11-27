@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("./font/Roboto\ Font.ttf");
+}
+
+body{
+    font-family: 'Roboto','Courier New', Courier, monospace;
+    text-decoration: none;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+
+.section1{
+    color: white;
+    margin: 0px;
+    padding: 12px;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: #1f2937;
+    flex-direction: column;
+}
+
+.header{
+    color: white;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightSide{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 12px
+}
+
+.link{
+    color: white;
+}
+
+.body{
+    padding: 85px;
+    display: flex;
+    justify-content: center;
+    align-items:stretch;
+    gap: 32px; 
+    flex:1;
+
+}
+
+.body img{
+    width: 400px;
+    height: 200px;
+}
+
+.body .leftTextList{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 220px;
+    text-wrap: wrap;
+}
+
+.body h2{
+    font-weight: bold;
+}
+
+.section2{
+    padding: 32px;
+    gap:32px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section2 .playlists{
+    display: flex;
+    gap: 60px;
+    flex:0;
+    flex-basis:auto;
+    justify-content: space-around;
+}
+
+.playlists iframe{
+    width: 280px;
+    height: 400px;
+}
