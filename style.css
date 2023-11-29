@@ -85,14 +85,25 @@ a{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .section2 .playlists{
     display: flex;
-    gap: 60px;
+    gap: 80px;
     flex:0;
     flex-basis:auto;
     justify-content: space-around;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+
+.section2 .playlists .bundle{
+    display: flex;
+    gap:40px;
+    flex-direction: column;
+    align-items: baseline;
 }
 
 .playlists iframe{
@@ -100,4 +111,52 @@ a{
     height: 360px;
 }
 
+#bold{
+    font-weight: bold;
+    font-style: initial;
+}
 
+.section3{
+    display: flex;
+    background-color: #E5E7Eb;
+    justify-content: center;
+    padding: 205px 85px;
+    font-size: 36px;
+    font-style:italic;
+    color:#1f2937;
+}
+
+.section4{
+    display:flex;
+    justify-content: center;
+    padding: 72px;
+}
+
+.section4 .signUpWindow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 12px;
+    justify-content: space-between;
+    padding: 24px;
+    width: 720px
+}
+
+.section4 .signUpWindow .signUpButton{
+    flex:initial;
+    background-color: #3882f6;
+    border-color: white;
+    color: white;
+    border-width:1px;
+    padding: 2px 8px ;
+    border-radius: 12px;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    padding: 12px;
+    color: white;
+    background-color: #1f2937;
+}
